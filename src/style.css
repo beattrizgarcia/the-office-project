@@ -41,7 +41,7 @@ section.secondary{
 }
 
 .img-responsive {
-  max-width: 100%;
+  width: 100%;
   display: block;
 }
 
@@ -145,10 +145,19 @@ main h5 {
   color: #272044;
 }
 
+.embed {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
 
 .card {
   margin: 30px 0;
   background-color: white;
+}
+
+.card-header.grid {
+  grid-gap: 0;
 }
 
 .card-body {
@@ -242,5 +251,14 @@ header h2 {
 
      section {
       padding: 30px;
+     }
+
+     .card-header img {
+      display: none;
+    
+     }
+
+     .embed {
+      aspect-ratio: 16/9;
      }
 }
